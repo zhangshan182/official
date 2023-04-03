@@ -176,45 +176,45 @@ export default function Page() {
           <div className={styles.itemSubT}>通过对中之人进行高精度的面部捕捉和动作捕捉，我们可以实现专业影视级的直播，实时展现细微的表情和动作。</div>
           <img className={styles.comPic} src={DEFAULT_URL} alt="" />
         </div>
-        <div className={styles.itemBox} style={{ marginTop: "0.8rem" }}>
+        <div className={styles.itemBox} style={{marginTop:'0.8rem'}}>
           <div className={styles.itemT}>高精度高质量实时捕捉</div>
           <div className={styles.itemSubT}>面部高精度的表情神态捕捉和光惯混合的动作捕捉，可以达到好莱坞影视级的质量和效果。</div>
           <img className={styles.comPic} src={DEFAULT_URL} alt="" />
         </div>
-        <div className={styles.itemBox} style={{ marginTop: "0.8rem" }}>
+        <div className={styles.itemBox} style={{marginTop:'0.8rem'}}>
           <div className={styles.itemT}>支持不同类型的虚拟人</div>
           <div className={styles.itemSubT}>基于我们的表情迁移算法，可以实现不同风格的虚拟人的表情迁移，最大程度上降低由于中之人演员与虚拟人形象差异产生的表情违和与千篇一律。</div>
           <div className={styles.typeList}>
-            {vManList.map((item, index) => <div className={styles.item} key={index}>
+            {vManList.map((item,index)=><div className={styles.item} key={index}>
               <img src={item.path} alt="" />
               <div className={styles.text}>{item.title}</div>
             </div>)}
           </div>
         </div>
-        <div className={styles.itemBox} style={{ marginTop: "0.8rem" }}>
+        <div className={styles.itemBox} style={{marginTop:'0.8rem'}}>
           <div className={styles.itemT}>多直播平台支持</div>
           <div className={styles.itemSubT}>可高质量支持各大主流直播平台，以及所有支持推流的直播平台。如抖音、视频号、快手、淘宝、虎牙等。</div>
           <div className={styles.platformList}>
-            {platformList.map((item, index) => <div className={styles.item} key={index}>
+            {platformList.map((item,index)=><div className={styles.item} key={index}>
               <img src={item.path} alt="" />
             </div>)}
           </div>
         </div>
-        <div className={styles.itemBox} style={{ marginTop: "0.8rem" }}>
+        <div className={styles.itemBox} style={{marginTop:'0.8rem'}}>
           <div className={styles.itemT}>消费级直播方案</div>
           <div className={styles.itemSubT}>仅通过一个RGB摄像头，就可实现面部表情实时捕捉和动作手势实时跟踪，做到低延迟实时直播。</div>
           <div className={styles.consumptionList}>
-            {consumptionList.map((item, index) => <div className={styles.item} key={index}>
+            {consumptionList.map((item,index)=><div className={styles.item} key={index}>
               <img src={item.path} alt="" />
               <div className={styles.title}>{item.title}</div>
               <div className={styles.sub}>{item.subTitle}</div>
             </div>)}
           </div>
         </div>
-        <div className={styles.itemBox} style={{ marginTop: "0.8rem" }}>
+        <div className={styles.itemBox} style={{marginTop:'0.8rem'}}>
           <div className={styles.itemT}>直播案例</div>
           <div className={styles.caseList}>
-            {liveCaseList.map((item, index) => <div className={styles.item} key={index}>
+            {liveCaseList.map((item,index)=><div className={styles.item} key={index}>
               <img src={item.path} alt="" />
             </div>)}
           </div>

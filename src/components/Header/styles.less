@@ -1,0 +1,285 @@
+@import "../../global";
+.homeBg{
+  background: rgba(216,216,216,0.05);
+}
+.commonBg{
+  background: #000000;;
+}
+.pcContainer {
+  width: 100vw;
+  height: 3.333vw;
+  font-size: 0.833vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.083vw;
+  transition: all ease 0.3s;
+  color: #FFF;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+
+  .pcContainerLeft {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    .logoCon{
+      display: flex;
+      align-items: center;
+      img{
+        width: 1.667vw;
+        height: 1.667vw;
+        margin-right: 10px;
+      }
+    }
+    .navList {
+      margin-left: 6.823vw;
+      display: flex;
+      gap: 4.167vw;
+      height: 100%;
+
+      .navItem {
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 0 10px;
+        transition: all ease .3s;
+
+        img {
+          margin-left: 0.677vw;
+          transition: all 0.3s;
+        }
+
+        .navItemBotLine {
+          position: absolute;
+          width: 0;
+          bottom: 0;
+          left: 50%;
+          height: 2px;
+          background: linear-gradient(90deg, #D675A3 0%, #8D86D7 46%, #8CBFC6 100%);;
+          transition: all ease .3s;
+        }
+
+        .productCenterCon {
+          position: absolute;
+          left: 0;
+          top: 100%;
+          padding-top: 0.417vw;
+          display: none;
+
+          .productCenterListCon {
+            padding: 0.573vw 0.417vw;
+            background: #262A2D;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 0.26vw;
+            justify-content: space-between;
+            transition: all ease .3s;
+
+            .productCenterConItem {
+              position: relative;
+              display: inline-block;
+              white-space: nowrap;
+              padding: 0.625vw 0.833vw;
+              font-size: 0.833vw;
+              color: #FFFFFF;
+              border-radius: 0.417vw;
+              z-index: 0;
+              span{
+                position: relative;
+                z-index: 2;
+              }
+            }
+            .productCenterConItem::before {
+              position: absolute;
+              content: "";
+              inset: 0; /* same as { top: 0; right: 0; bottom: 0; left: 0; } */
+              border-radius: 0.417vw;
+              background-image: linear-gradient(90deg, #D675A3 0%, #8D86D7 46%, #8CBFC6 100%);
+              z-index: 0;
+              opacity: 0;
+              transition: opacity 0.3s linear;
+            }
+            .productCenterConItem:hover::before {
+              opacity: 1;
+            }
+            .productCenterConItemAC {
+              background: linear-gradient(90deg, #D675A3 0%, #8D86D7 46%, #8CBFC6 100%);
+            }
+          }
+        }
+      }
+
+      .navItem:hover {
+        font-weight: 600;
+
+        img {
+          transform: rotate(180deg);
+        }
+
+        .productCenterCon {
+         display: block;
+        }
+
+        .navItemBotLine {
+          left: 0;
+          width: 100%;
+        }
+      }
+
+      .pcNavItemActive {
+        font-weight: 500 !important;
+
+        .navItemBotLine {
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .pcContainerRight {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+      width: 10px;
+      height: 10px;
+      margin-left: 0.677vw;
+      transition: all .3s;
+    }
+
+    .botCon {
+      position: absolute;
+      right: 0;
+      top: 100%;
+      width: 100%;
+      background: #0F1112;
+      transition: all .3s;
+      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      opacity: 0;
+      padding: 0.521vw;
+      text-align: center;
+      //transform: translateX(-50%);
+      .itemCon {
+        padding: 0.625vw 0.833vw;
+        background: linear-gradient(90deg, #D675A3 0%, #8D86D7 46%, #8CBFC6 100%);
+        border-radius: 8px;
+        font-size: 0.833vw;
+      }
+    }
+  }
+
+  .pcContainerRight:hover {
+    img {
+      transform: rotate(180deg);
+    }
+
+    .botCon {
+      opacity: 1;
+    }
+  }
+}
+
+.mobileCon {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  color: #FFF;
+  transition: all .3s;
+  height: 64px;
+  z-index: 99;
+  .mobileConHeader {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+
+    .mobileConL {
+      display: flex;
+      align-items: center;
+      img{
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
+      }
+    }
+
+    .mobileConR {
+      display: flex;
+      flex-direction: column;
+
+      div {
+        display: block;
+        width: 26px;
+        height: 2px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.4s;
+      }
+
+      .topLineActive {
+        transform: rotate(45deg) translate(4px, 4px);
+      }
+
+      .midLineActive {
+        opacity: 0;
+      }
+
+      .subLineActive {
+        transform: rotate(-45deg) translate(7px, -7px);
+      }
+    }
+  }
+
+  .mobileNavCon {
+    width: 100%;
+    height: calc(100% - 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+
+    .mobileNavItem {
+      margin: 10px 0;
+    }
+    .navItemActive{
+      font-weight: bold;
+      background: linear-gradient(90deg, #D675A3 0%, #8D86D7 46%, #8CBFC6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .mobileNavConActive {
+    visibility: visible !important;
+    transition: all ease 0.3s;
+  }
+}
+
+.mobileConActive {
+  height: 100%;
+}
+
+@media only screen and (min-width: 991px) {
+  .mobileCon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .pcContainer {
+    display: none;
+  }
+}

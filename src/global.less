@@ -1,125 +1,109 @@
-html {
-  font-size: 50px;
-}
-
+html { font-size: 50px; }
 @media only screen and (max-width: 240px) {
-  html {
-    font-size: 32px !important;
-  }
+  html { font-size: 32px !important; }
 }
-
 /* 240x400 */
 @media only screen and (min-width: 240px) {
-  html {
-    font-size: 32px !important;
-  }
+  html { font-size: 32px !important; }
 }
-
 /* 320x480 | 320x568 */
 @media only screen and (min-width: 320px) {
-  html {
-    font-size: 42.665px !important;
-  }
+  html { font-size: 42.665px !important; }
 }
-
 /* 360x600 */
 @media only screen and (min-width: 360px) {
-  html {
-    font-size: 48px !important;
-  }
+  html { font-size: 48px !important; }
 }
-
 /* 375x667 | 375x812 */
 @media only screen and (min-width: 375px) {
-  html {
-    font-size: 50px !important;
-  }
+  html { font-size: 50px !important; }
 }
-
 /* 384x640 */
 @media only screen and (min-width: 384px) {
-  html {
-    font-size: 51.2px !important;
-  }
+  html { font-size: 51.2px !important; }
 }
-
 /* 400x640 */
 @media only screen and (min-width: 400px) {
-  html {
-    font-size: 53.33px !important;
-  }
+  html { font-size: 53.33px !important; }
 }
-
 /* 411x731 | 411x823 */
 @media only screen and (min-width: 411px) {
-  html {
-    font-size: 54.8px !important;
-  }
+  html { font-size: 54.8px !important; }
 }
-
 /* 412x732 */
 @media only screen and (min-width: 412px) {
-  html {
-    font-size: 54.935px !important;
-  }
+  html { font-size: 54.935px !important; }
 }
-
 /* 414x736 */
 @media only screen and (min-width: 414px) {
-  html {
-    font-size: 55.2px !important;
-  }
+  html { font-size: 55.2px !important; }
 }
-
 /* 480x320 */
 @media only screen and (min-width: 480px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 58px !important; }
 }
-
 /* 600x960 */
 @media only screen and (min-width: 600px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 60px !important; }
 }
-
 @media only screen and (min-width: 640px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 62px !important; }
 }
-
 @media only screen and (min-width: 720px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 64px !important; }
 }
-
 @media only screen and (min-width: 733px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 66px !important; }
 }
-
 /* 768x1024 */
 @media only screen and (min-width: 768px) {
-  html {
-    font-size: 64px !important;
-  }
+  html { font-size: 70px !important; }
 }
 
-@media only screen and (max-width: 1080px) {
-  #root {
-    padding-top: 64px
+@primary-bg-color: #0F1112;
+@primary-font-color: #FFFFFF;
+@primary-transition: all ease .3s;
+@default-img:'https://www.faceunity.com/uploadfile/upfiles/20220424150944208919.png'
+
+p{
+  margin: 0 !important;
+};
+// 页面公共布局
+.pageCon {
+  position: relative;
+  padding: 3.333vw 12.5vw 13.333vw 12.5vw;
+  color: @primary-font-color;
+  background: url("../src/assets/common/smallBg.png") repeat;
+
+  // 暂时的 通用的图片布局
+  .bigPic{
+    position: absolute;
+    left: 51.5625vw;
+    right: 9.0625vw;
+    width: 35.9375vw;
+    height: 26.042vw;
+    background: whitesmoke;
+    color: #0F1112;
+    font-size: 2.083vw;
   }
+  .mainTitle {
+    width: 32.65625vw;
+    font-size: 2.292vw;
+    font-weight: 500;
+    padding-top: 9.167vw;
+    padding-bottom: 1.458vw;
+  }
+
+  .mainConSubtitle {
+    width: 36.823vw;
+    font-size: 0.833vw;
+    font-weight: 300;
+    padding-bottom: 7.917vw;
+  }
+};
+@media only screen and (max-width: 990px) {
+  .pageCon {
+    padding-top: 64px;
+  };
 }
 
-/* @primary-bg-color: #0F1112; */
-
-/* @primary-font-color: #FFFFFF; */
-
-/* @primary-transition: all ease .3s; */
-
-/* @primary-transition-C: #FFF; */

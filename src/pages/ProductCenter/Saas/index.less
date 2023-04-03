@@ -1,52 +1,498 @@
 @import "../../../global";
-// 通用的背景
-.commonBg {
-  background: #0F1112;
-  border-radius: 1.667vw;
-  padding: 2.083vw;
-}
 
-// 通用的标题与子标题
-.commonT {
-  font-size: 1.5625vw;
-  font-weight: 500;
-  color: #FFF;
-  line-height: 2.03125vw;
-  margin-bottom: 1.042vw;
-}
-
-.commonSubT {
-  font-size: 0.729vw;
-  font-weight: 400;
-  color: #FFF;
-  line-height: 1.146vw;
-}
-
-// 通用的图片布局
-.commonPicList{
-  display: flex;
-  justify-content: space-between;
-
-  img{
-    width: 34.375vw;
-    height: 34.375vw;
-    border-radius: 1.25vw;
-    margin-top: 5.833vw;
-    margin-bottom: 4.01vw;
+.pc {
+  // 通用的背景
+  .commonBg {
+    background: #0F1112;
+    border-radius: 1.667vw;
+    padding: 2.083vw;
   }
-}
-// 写实级别精度
-.realisticList{
-  display: flex;
-  justify-content: space-between;
 
-  .realisticListItem{
-    img{
-      width: 436px;
-      height: 436px;
-      background: #ECECEC;
-      border-radius: 16px;
+  // 通用的标题与子标题
+  .commonT {
+    font-size: 1.5625vw;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 1.042vw;
+  }
+
+  .commonSubT {
+    font-size: 0.729vw;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  // 通用的图片布局
+  .commonPicList {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      width: 34.375vw;
+      height: 34.375vw;
+      border-radius: 1.25vw;
+      margin-top: 5.833vw;
+      margin-bottom: 4.01vw;
+    }
+  }
+
+  // 写实级别精度
+  .realisticList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.833vw;
+
+    .realisticListItem {
+      img {
+        width: 22.708vw;
+        height: 22.708vw;
+        border-radius: 0.833vw;
+      }
+
+      p {
+        margin-top: 2.083vw;
+        margin-bottom: 4.271vw;
+        font-size: 1.042vw;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    }
+  }
+
+  //内容一键生成
+  .oneKeyCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.6875vw;
+    margin-bottom: 2.083vw;
+    padding: 0 2.083vw;
+
+    img {
+      width: 13.333vw;
+      height: 13.333vw;
+      border-radius: 50%;
+    }
+
+    .oneKeyConLeft {
+      position: relative;
+      height: 31.354vw;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .downArrowCon {
+        position: absolute;
+        top: 8.333vw;
+        left: 14.427vw;
+        width: 10.677vw;
+        height: 4.375vw;
+        background: url("../../../assets/page/sass/downArrow.svg");
+        background-size: 100% 100%;
+      }
+
+      .topArrowCon {
+        position: absolute;
+        bottom: 9.21875vw;
+        left: 14.427vw;
+        width: 10.677vw;
+        height: 4.375vw;
+        background: url("../../../assets/page/sass/topArrow.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .oneKeyConMid {
+      position: relative;
+
+      .lineArrowCon {
+        position: absolute;
+        top: 50%;
+        left: 14.896vw;
+        transform: translateY(-50%);
+        width: 10.052vw;
+        height: 1.823vw;
+        background: url("../../../assets/page/sass/lineArrow.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+  }
+
+  // ugc生态
+  .ugcCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8.646vw 14.167vw 9.167vw 14.167vw;
+    // 通用的图片与文字div
+    .ugcConImg {
+      position: relative;
+
+      img {
+        width: 4.167vw;
+        height: 4.167vw;
+      }
+
+      .ugcConText {
+        position: absolute;
+        left: 50%;
+        bottom: -2.34375vw;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 1.25vw;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+
+    .ugcConLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .leftTopCon {
+        position: relative;
+        margin-bottom: 2.34375vw;
+
+        .topConLine {
+          width: 39.635vw;
+          height: 10.3125vw;
+          position: absolute;
+          left: 1.40625vw;
+          top: -4.427vw;
+          background: url("../../../assets/page/sass/topLine.svg");
+          background-size: 100% 100%;
+        }
+      }
+
+      .leftMidCon {
+        width: 1.198vw;
+        height: 5.208vw;
+        margin-bottom: 0.78125vw;
+        background: url("../../../assets/page/sass/left.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBotCon {
+        position: relative;
+
+        .botConLine {
+          width: 39.635vw;
+          height: 10.3125vw;
+          position: absolute;
+          left: 1.40625vw;
+          top: 0.677vw;
+          background: url("../../../assets/page/sass/botLine.svg");
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .ugcConMid {
+      position: relative;
+      margin-left: 13.49vw;
+      margin-right: 16.458vw;
+
+      .leftTopLine {
+        width: 11.198vw;
+        height: 4.948vw;
+        position: absolute;
+        left: -12.396vw;
+        top: -3.854vw;
+        background: url("../../../assets/page/sass/midLeftTop.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBotLine {
+        width: 11.198vw;
+        height: 4.479vw;
+        position: absolute;
+        left: -12.396vw;
+        top: 3.385vw;
+        background: url("../../../assets/page/sass/midLeftBot.svg");
+        background-size: 100% 100%;
+      }
+
+      .rightLine {
+        width: 14.167vw;
+        height: 1.25vw;
+        position: absolute;
+        left: 5.3125vw;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url("../../../assets/page/sass/midRight.svg");
+        background-size: 100% 100%;
+      }
     }
   }
 }
+
+.mobile {
+  position: relative;
+  padding: 2.42rem 0.4rem 1.82rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+
+  .title {
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .subT {
+    font-size: 0.24rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 0.44rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .mainPic {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0.8rem auto;
+  }
+
+  // 通用的item布局
+  .itemBox {
+    background: #0F1112;
+    padding: 0.4rem;
+    border-radius: 0.36rem;
+
+    .itemT {
+      font-size: 0.4rem;
+      font-weight: 500;
+      line-height: 0.45rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .itemSubT {
+      font-size: 0.24rem;
+      font-weight: 400;
+      line-height: 0.44rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  // 通用的图片
+  .comPic {
+    width: 100%;
+    border-radius: 0.24rem;
+  }
+
+  // 写实级别的精度
+  .realList{
+    img{
+      width: 100%;
+      border-radius: 0.24rem;
+    }
+    .text{
+      text-align: center;
+      font-size: 0.28rem;
+      margin: 0.25rem 0 0.4rem 0;
+    }
+  }
+
+  // 捏脸塑形
+  .faceList{
+    img{
+      width: 100%;
+      border-radius: 0.24rem;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+  }
+  //内容一键生成
+  .oneKeyCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4.6875vw auto 2.083vw auto;
+    width: 81.87vw;
+
+
+    img {
+      width: 10.67vw;
+      height: 10.67vw;
+      border-radius: 50%;
+    }
+
+    .oneKeyConLeft {
+      position: relative;
+      height: 32vw;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      .downArrowCon {
+        position: absolute;
+        top: 6.53vw;
+        left: 12.53vw;
+        width: 20vw;
+        height: 8vw;
+        background: url("../../../assets/page/sass/downArrowM.svg");
+        background-size: 100% 100%;
+      }
+
+      .topArrowCon {
+        position: absolute;
+        bottom: 6.07vw;
+        left: 12.53vw;
+        width: 20vw;
+        height: 8vw;
+        background: url("../../../assets/page/sass/topArrowM.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .oneKeyConMid {
+      position: relative;
+
+      .lineArrowCon {
+        position: absolute;
+        top: 50%;
+        left: 14vw;
+        transform: translateY(-50%);
+        width: 17.33vw;
+        height: 1.87vw;
+        background: url("../../../assets/page/sass/lineArrow.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+  }
+
+  // ugc生态
+  .ugcCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin:15vw auto 14vw auto;
+    // 通用的图片与文字div
+    .ugcConImg {
+      position: relative;
+
+      img {
+        width: 10.67vw;
+        height: 10.67vw;
+      }
+
+      .ugcConText {
+        position: absolute;
+        left: 50%;
+        bottom: -4.5vw;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 0.24rem;
+        color: #FFFFFF;
+      }
+    }
+
+    .ugcConLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .leftTopCon {
+        position: relative;
+        margin-bottom: 6vw;
+
+        .topConLine {
+          width: 72vw;
+          height: 25.2vw;
+          position: absolute;
+          left: 3.6vw;
+          top: -9.87vw;
+          background: url("../../../assets/page/sass/topLineM.svg");
+          background-size: 100% 100%;
+        }
+      }
+
+      .leftMidCon {
+        width: 1.87vw;
+        height: 13.33vw;
+        margin-bottom: 2vw;
+        background: url("../../../assets/page/sass/left.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBotCon {
+        position: relative;
+
+        .botConLine {
+          width: 72.13vw;
+          height: 19.6vw;
+          position: absolute;
+          left: 3.2vw;
+          top: 1.87vw;
+          background: url("../../../assets/page/sass/botLineM.svg");
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .ugcConMid {
+      position: relative;
+      margin-left: 13.49vw;
+      margin-right: 16.458vw;
+
+      .leftTopLine {
+        width: 17.73vw;
+        height: 9.6vw;
+        position: absolute;
+        left: -19.2vw;
+        top: -9.6vw;
+        background: url("../../../assets/page/sass/midLeftTopM.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBotLine {
+        width: 17.73vw;
+        height: 9.07vw;
+        position: absolute;
+        left: -19.2vw;
+        top: 10.67vw;
+        background: url("../../../assets/page/sass/midLeftBotM.svg");
+        background-size: 100% 100%;
+      }
+
+      .rightLine {
+        width: 18.13vw;
+        height: 1.87vw;
+        position: absolute;
+        left: 14.27vw;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url("../../../assets/page/sass/midRight.svg");
+        background-size: 100% 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .pc {
+    visibility: visible;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .pc {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+}
+
 

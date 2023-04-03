@@ -1,8 +1,32 @@
-/*
- * @Author: 大根 375443178@qq.com
- * @Date: 2023-04-03 19:14:37
- * @LastEditors: 大根 375443178@qq.com
- * @LastEditTime: 2023-04-03 19:18:43
- * @FilePath: /umiMax/src/pages/ApplicationScenario/components/RightPic/index.tsx
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
+import React, { FC } from "react";
+import styles from './style.less'
+import ViewMore from "@/components/Common/ViewMore";
+interface IProps {
+  url: string,
+  title: string,
+  subtitle: string,
+  showMore: boolean,
+  morePath?: string
+}
+
+const RightPic: FC<IProps> = (props) => {
+  const { url, title, subtitle, showMore, morePath } = props;
+  return (
+    <div className={styles.main}>
+      <div className={styles.leftItem}>
+        <div className={styles.leftItemTitle}>{title}</div>
+        <div className={styles.leftItemSubT}>{subtitle}</div>
+        {showMore && morePath && <ViewMore path={morePath} />}
+      </div>
+      <img src={url} alt="" />
+      {/*<h1>*/}
+      {/*  {url}*/}
+      {/*  {title}*/}
+      {/*  {subtitle}*/}
+      {/*  {showMore ? "more" : "noMore"}*/}
+      {/*  {morePath}*/}
+      {/*</h1>*/}
+    </div>
+  );
+};
+export default RightPic;

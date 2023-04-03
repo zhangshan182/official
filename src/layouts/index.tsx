@@ -1,5 +1,4 @@
-import { Outlet } from 'umi';
-import styles from './index.less';
+import { Outlet } from "@umijs/max";
 import React from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,9 +6,9 @@ import Footer from "@/components/Footer";
 export default function Layout() {
   return (
     <div>
-      <Header/>
-      <Outlet/>
-      <Footer/>
+      <Header />
+      <Outlet />
+      <Footer />
     </div>
   );
 }
