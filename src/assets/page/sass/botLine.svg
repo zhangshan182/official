@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="761px" height="198px" viewBox="0 0 761 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-580.000000, -5188.000000)">
+            <g id="编组-6" transform="translate(580.000000, 5188.000000)">
+                <polygon id="路径" fill="#D575A3" fill-rule="nonzero" transform="translate(12.000000, 137.500000) rotate(90.000000) translate(-12.000000, -137.500000) " points="16 125.5 16 135.5 32 135.5 32 139.5 16 139.5 16 149.5 -8 137.5"></polygon>
+                <polygon id="路径" fill="#8DC0C6" fill-rule="nonzero" transform="translate(748.571429, 14.000000) rotate(-90.000000) translate(-748.571429, -14.000000) " points="738.571429 2 762.571429 14 738.571429 26 738.571429 16 734.571429 16 734.571429 12 738.571429 12"></polygon>
+                <path d="M748.571429,31 L748.571429,50.5695831 L748.571429,50.5695831 L748.571429,180 C748.571429,188.836556 741.407985,196 732.571429,196 L28,196 C19.163444,196 12,188.836556 12,180 L12,128.840954 L12,128.840954" id="路径" stroke="url(#linearGradient-1)" stroke-width="4" stroke-dasharray="12"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,769 @@
+@import "../../../global";
+
+.pc {
+  // 通用的背景
+  .commonBg {
+    background: #0F1112;
+    border-radius: 1.667vw;
+    padding: 2.083vw;
+  }
+
+  // 通用的标题与子标题
+  .commonT {
+    font-size: 1.5625vw;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 1.042vw;
+  }
+
+  .commonSubT {
+    font-size: 0.729vw;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  // 立即试用按钮
+  .tryButton {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 2.083vw;
+    background: linear-gradient(90deg, #D675A3 0%, #A586D7 58%, #84AABD 100%);
+    border-radius: 1.042vw;
+    font-size: 0.729vw;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0 1.042vw;
+    text-wrap: none;
+    margin-bottom: 7.03125vw;
+  }
+
+  // 人模块
+  .personList {
+    margin-top: 5.052vw;
+    margin-bottom: 3.385vw;
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      .imgCon {
+        width: 13.333vw;
+        height: 13.333vw;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      p {
+        margin-top: 1.042vw;
+        text-align: center;
+        font-size: 0.833vw;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  // 物品模块
+  .goodsCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.09375vw;
+    margin-bottom: 7.76vw;
+    // 通用的图片与文字模块
+    .goodsConPicText {
+      position: relative;
+      box-shadow: 0 0.885vw 1.042vw 0 rgba(0, 0, 0, 0.02);
+
+      img {
+        width: 9.375vw;
+        height: 9.375vw;
+        border-radius: 50%;
+      }
+    }
+
+    .textCon {
+      position: absolute;
+      left: 50%;
+      bottom: -2.1875vw;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-size: 1.042vw;
+      font-weight: 500;
+      color: #FFFFFF;
+    }
+
+    .topCon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 11.875vw;
+    }
+
+    .midCon {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 4.479vw;
+
+      img {
+        width: 13.333vw;
+        height: 13.333vw;
+        background: #191919;
+        box-shadow: 0 0.885vw 1.042vw 0 rgba(0, 0, 0, 0.02);
+        border-radius: 50%;
+      }
+
+      .midConText {
+        position: absolute;
+        left: 50%;
+        bottom: -2.1875vw;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 1.146vw;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+
+      .midConTop {
+        position: absolute;
+        left: 50%;
+        top: -9.0625vw;
+        transform: translateX(-50%);
+        width: 1.25vw;
+        height: 8.49vw;
+        background: url("../../../assets/page/metaverse/goodsArrow1.svg");
+        background-size: cover;
+      }
+
+      .midConTopText {
+        position: absolute;
+        left: 50%;
+        top: -5.417vw;
+        transform: translateX(-50%);
+        font-size: 0.9375vw;
+        color: #FFFFFF;
+      }
+
+      .botLeftCon {
+        position: absolute;
+        width: 10.417vw;
+        height: 8.177vw;
+        left: -10.417vw;
+        top: 11.09375vw;
+        background: url("../../../assets/page/metaverse/goodsArrow2.svg");
+        background-size: cover;
+      }
+
+      .botLeftText {
+        position: absolute;
+        font-size: 0.9375vw;
+        left: -11.5vw;
+        top: 10.6vw;
+        transform: rotate(-38deg);
+        transform-origin: right top;
+      }
+
+      .botRightCon {
+        position: absolute;
+        width: 10.417vw;
+        height: 8.177vw;
+        left: 100%;
+        top: 11.09375vw;
+        background: url("../../../assets/page/metaverse/goodsArrow3.svg");
+        background-size: 100% 100%;
+      }
+
+      .botRightText {
+        position: absolute;
+        font-size: 0.9375vw;
+        left: 17.75vw;
+        top: 11vw;
+        transform: rotate(38deg);
+        transform-origin: left top;
+      }
+    }
+
+    .botCon {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8.333vw;
+    }
+  }
+
+  // 场
+  .siteCon {
+    margin: 5.208vw 3.125vw 6.25vw 3.125vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // 通用的图片与文字div
+    .siteConImg {
+      position: relative;
+
+      img {
+        width: 4.167vw;
+        height: 4.167vw;
+      }
+
+      .siteConText {
+        position: absolute;
+        left: 50%;
+        bottom: -2.34375vw;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 1.25vw;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+
+    .siteConLeft {
+      display: flex;
+      flex-direction: column;
+      gap: 6.927vw;
+    }
+
+    .siteConMidLeft {
+      position: relative;
+
+      .leftTop {
+        position: absolute;
+        left: -15.521vw;
+        top: -8.49vw;
+        width: 14.6875vw;
+        height: 8.49vw;
+        background: url("../../../assets/page/metaverse/leftTop.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftMid {
+        position: absolute;
+        left: -15.521vw;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 14.6875vw;
+        height: 1.25vw;
+        background: url("../../../assets/page/metaverse/leftMid.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBot {
+        position: absolute;
+        left: -15.521vw;
+        top: 100%;
+        width: 14.6875vw;
+        height: 8.49vw;
+        background: url("../../../assets/page/metaverse/leftBot.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .siteConMidRight {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 6.927vw;
+
+      .leftTop {
+        position: absolute;
+        left: -15.46875vw;
+        top: 1.71875vw;
+        width: 14.375vw;
+        height: 4.427vw;
+        background: url("../../../assets/page/metaverse/psgTop.svg");
+        background-size: 100% 100%;
+      }
+
+      .rightTop {
+        position: absolute;
+        left: 4.6875vw;
+        top: 1.71875vw;
+        width: 14.375vw;
+        height: 5.427vw;
+        background: url("../../../assets/page/metaverse/psgBot.svg");
+        background-size: 100% 100%;
+      }
+
+      .leftBot {
+        position: absolute;
+        left: -15.46875vw;
+        bottom: 1.615vw;
+        width: 14.375vw;
+        height: 4.427vw;
+        background: url("../../../assets/page/metaverse/psgBot.svg");
+        background-size: 100% 100%;
+      }
+
+      .rightBot {
+        position: absolute;
+        left: 4.6875vw;
+        bottom: 1.615vw;
+        width: 14.375vw;
+        height: 5.427vw;
+        background: url("../../../assets/page/metaverse/psgTop.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .siteConRight {
+      position: relative;
+    }
+  }
+
+  // 创作者模块
+  .creatorCon {
+    position: relative;
+    width: 42.865vw;
+    margin: 7.65625vw auto 6.25vw auto;
+    height: 14.583vw;
+    font-size: 1.042vw;
+    font-weight: 400;
+    color: #FFFFFF;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 4.583vw;
+        height: 4.583vw;
+      }
+    }
+
+    .leftItem {
+      position: absolute;
+      left: 0;
+      width: 23.646vw;
+      height: 14.583vw;
+      background: url("../../../assets/page/metaverse/blueBg.svg");
+      background-size: 100% 100%;
+    }
+
+    .rightItem {
+      position: absolute;
+      right: 0;
+      width: 23.646vw;
+      height: 14.583vw;
+      background: url("../../../assets/page/metaverse/blueBg.svg");
+      background-size: 100% 100%;
+    }
+  }
+
+  //元宇宙基建平台
+  .infrastructure {
+    margin-top: 4.53125vw;
+    margin-bottom: 4.271vw;
+
+    img {
+      width: 100%;
+      height: 32.292vw;
+    }
+  }
+}
+
+.mobile {
+  position: relative;
+  padding: 2.42rem 0.4rem 1.82rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+
+  .title {
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .subT {
+    font-size: 0.24rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 0.44rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .mainPic {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0.8rem auto;
+  }
+
+  // 通用的item布局
+  .itemBox {
+    background: #0F1112;
+    padding: 0.4rem;
+    border-radius: 0.36rem;
+
+    .itemT {
+      font-size: 0.4rem;
+      font-weight: 500;
+      line-height: 0.45rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .itemSubT {
+      font-size: 0.24rem;
+      font-weight: 400;
+      line-height: 0.44rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  // 人模块
+  .manList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 45%);
+    justify-content: space-between;
+
+    .item {
+      img {
+        width: 100%;
+      }
+
+      .text {
+        text-align: center;
+        font-size: 0.28rem;
+        margin-top: 0.28rem;
+        margin-bottom: 0.4rem;
+      }
+    }
+  }
+
+  // 物品模块
+  .thing {
+    width: 81.87vw;
+    margin: 30px auto 100px auto;
+
+    .top {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 33.73vw;
+    }
+
+    .mid {
+      display: flex;
+      justify-content: center;
+    }
+
+    .bot {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20.93vw;
+    }
+
+    // 通用的小图标
+    .small {
+      position: relative;
+      width: 12vw;
+      height: 12vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+      .text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15.2vw;
+        font-size: 3.73vw;
+        white-space: nowrap;
+      }
+    }
+
+    // 通用的大图标
+    .big {
+      position: relative;
+      width: 17.07vw;
+      height: 17.07vw;
+
+      .bigImg {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+      .text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20.27vw;
+        font-size: 4vw;
+        white-space: nowrap;
+      }
+
+      .topArrow {
+        position: absolute;
+        left: 50%;
+        top: -24.4vw;
+        transform: translateX(-50%);
+        width: 2vw;
+        height: 21.73vw;
+        background: url("../../../assets/page/metaverse/thingTopArrowM.svg");
+        background-size: 100% 100%;
+      }
+
+      .botLeft {
+        position: absolute;
+        width: 22.4vw;
+        height: 20.8vw;
+        left: -22.4vw;
+        top: 15.33vw;
+        background: url("../../../assets/page/metaverse/thingBotArrowM.svg");
+        background-size: 100% 100%;
+      }
+
+      .botRight {
+        position: absolute;
+        width: 22vw;
+        height: 20.8vw;
+        left: 100%;
+        top: 15.33vw;
+        background: url("../../../assets/page/metaverse/thingBotRightArrowM.svg");
+        background-size: 100% 100%;
+      }
+
+      .topText {
+        position: absolute;
+        left: 50%;
+        top: -17.6vw;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 3.73vw;
+      }
+
+      .leftText {
+        position: absolute;
+        top: 9vw;
+        right: 23vw;
+        font-size: 3.73vw;
+        transform: rotate(-43deg);
+        transform-origin: right top;
+      }
+
+      .rightText {
+        position: absolute;
+        top: 9vw;
+        left: 22vw;
+        font-size: 3.73vw;
+        transform: rotate(43deg);
+        transform-origin: left top;
+      }
+    }
+  }
+
+  // 场模块
+  .site {
+    margin: 6.67vw auto 6.67vw auto;
+    width: 81.33vw;
+    // 通用的图片
+    // 通用的小图标
+    .small {
+      position: relative;
+      width: 10.67vw;
+      height: 10.67vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+
+      .text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 11.73vw;
+        font-size: 3.73vw;
+        white-space: nowrap;
+      }
+    }
+
+    .top {
+      margin-bottom: 5.73vw;
+    }
+
+    .midTop {
+      margin-bottom: 1.33vw;
+      padding-left: 46.67vw;
+    }
+
+    .mid {
+      display: flex;
+      margin-bottom: 5.73vw;
+
+      .midLeft {
+        margin-right: 13.07vw;
+      }
+
+      .midMid {
+        position: relative;
+
+        .midLeftTop {
+          position: absolute;
+          left: -11.47vw;
+          top: -17.87vw;
+          width: 13.2vw;
+          height: 16.67vw;
+          background: url("../../../assets/page/metaverse/midLeftTopM.svg");
+          background-size: 100% 100%;
+        }
+
+        .midLeftLine {
+          position: absolute;
+          left: -9.47vw;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 8.27vw;
+          height: 1.87vw;
+          background: url("../../../assets/page/metaverse/midLeftLineM.svg");
+          background-size: 100% 100%;
+        }
+
+        .midBotLeft {
+          position: absolute;
+          left: -12.53vw;
+          top: 11.73vw;
+          width: 12.53vw;
+          height: 17.2vw;
+          background: url("../../../assets/page/metaverse/midBotLeftM.svg");
+          background-size: 100% 100%;
+        }
+
+        .midRightTop {
+          position: absolute;
+          left: 11.2vw;
+          top: -6.67vw;
+          width: 10.27vw;
+          height: 7.6vw;
+          background: url("../../../assets/page/metaverse/midRightTop.svg");
+          background-size: 100% 100%;
+        }
+
+        .midRightBot {
+          position: absolute;
+          left: 12vw;
+          top: 9.6vw;
+          width: 9.47vw;
+          height: 8.53vw;
+          background: url("../../../assets/page/metaverse/midRightBotM.svg");
+          background-size: 100% 100%;
+        }
+      }
+
+      .midR {
+        position: relative;
+        margin-left: 36.13vw;
+
+        .midRTop {
+          position: absolute;
+          left: -11.73vw;
+          top: -7.2vw;
+          width: 10.27vw;
+          height: 7.6vw;
+          background: url("../../../assets/page/metaverse/midRTopM.svg");
+          background-size: 100% 100%;
+        }
+
+        .midRBot {
+          position: absolute;
+          left: -10.93vw;
+          top: 8.13vw;
+          width: 9.47vw;
+          height: 8.53vw;
+          background: url("../../../assets/page/metaverse/midRBotM.svg");
+          background-size: 100% 100%;
+        }
+      }
+    }
+
+    .midBot {
+      padding-left: 46.67vw;
+    }
+
+    .bot {
+      margin-top: 1.33vw;
+    }
+  }
+
+  // 创作者模块
+  .creatorCon {
+    position: relative;
+    width: 100%;
+    height: 28.27vw;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 11.73vw;
+        height: 11.73vw;
+      }
+    }
+
+    .leftItem {
+      position: absolute;
+      left: 0;
+      width: 45.87vw;
+      height: 28.27vw;
+      background: url("../../../assets/page/metaverse/blueBg.svg");
+      background-size: 100% 100%;
+    }
+
+    .rightItem {
+      position: absolute;
+      right: 0;
+      width: 45.87vw;
+      height: 28.27vw;
+      background: url("../../../assets/page/metaverse/blueBg.svg");
+      background-size: 100% 100%;
+    }
+  }
+
+  .creatorConText {
+    text-align: center;
+    margin: 5.33vw auto;
+    font-size: 3.73vw;
+    font-weight: 500;
+  }
+  // 元宇宙基建平台
+  .baseImg{
+    display: block;
+    width: 100%;
+    margin: 5.33vw auto;
+  }
+}
+
+
+@media only screen and (min-width: 991px) {
+  .pc {
+    visibility: visible;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .pc {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+}

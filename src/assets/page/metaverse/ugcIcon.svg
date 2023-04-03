@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 28</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-727.000000, -3953.000000)">
+            <g id="编组-53" transform="translate(549.000000, 3873.000000)">
+                <g id="编组-51" transform="translate(178.000000, 80.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="88" height="88"></rect>
+                    <g id="编组" transform="translate(21.000000, 20.000000)">
+                        <path d="M29.0625,0 L1.9375,0 C0.867447812,0 0,0.87304425 0,1.95 L0,37.05 C0,38.126985 0.867447812,39 1.9375,39 L29.0625,39 C30.1325812,39 31,38.126985 31,37.05 L31,1.95 C31,0.87304425 30.1325812,0 29.0625,0 Z" id="路径备份-4" fill="#1B70F0"></path>
+                        <path d="M44.0625,10 L16.9375,10 C15.8674478,10 15,10.8730442 15,11.95 L15,47.05 C15,48.126985 15.8674478,49 16.9375,49 L44.0625,49 C45.1325813,49 46,48.126985 46,47.05 L46,11.95 C46,10.8730442 45.1325813,10 44.0625,10 Z" id="路径" fill-opacity="0.3" fill="#FFFFFF"></path>
+                        <path d="M34,22 C34,23.3807 33.4404,24.6307 32.5355,25.5355 C31.6307,26.4404 30.3807,27 29,27 C26.2386,27 24,24.7614 24,22 C24,19.2386 26.2386,17 29,17 C31.7614,17 34,19.2386 34,22 Z" id="路径"></path>
+                        <path d="M36,29 L32.5355,25.5355 M32.5355,25.5355 C33.4404,24.6307 34,23.3807 34,22 C34,19.2386 31.7614,17 29,17 C26.2386,17 24,19.2386 24,22 C24,24.7614 26.2386,27 29,27 C30.3807,27 31.6307,26.4404 32.5355,25.5355 Z" id="形状" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="24" y1="36.5" x2="37" y2="36.5" id="路径" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="24" y1="42.5" x2="31" y2="42.5" id="路径" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

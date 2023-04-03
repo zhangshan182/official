@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="101px" viewBox="0 0 24 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 10备份 6</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-580.000000, -5059.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path id="直线-10备份-6" d="M604,5136 L592,5160 L580,5136 L604,5136 Z M594,5111 L594,5131 L590,5131 L590,5111 L594,5111 Z M592,5059 L604,5083 L594,5083 L594,5099 L590,5099 L590,5083 L580,5083 L592,5059 Z"></path>
+        </g>
+    </g>
+</svg>

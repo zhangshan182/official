@@ -1,0 +1,409 @@
+@import "../../global";
+
+.bigPic {
+  position: absolute;
+  left: 52.76vw;
+  top: 3.75vw;
+  width: 35.052vw;
+  height: 76.458vw;
+  background: url("../../assets/page/virtualHuman/bigPic.png");
+  background-size: 100% 100%;
+}
+
+.mainCon {
+  // 虚拟人页面通用的标题css
+  .commonTitle {
+    font-size: 1.5625vw;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 0.99vw;
+  }
+
+  .commonSubTitle {
+    font-size: 0.833vw;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+
+  // 制作能力模块
+  .makeSkill {
+    background: #0F1112;
+    border-radius: 1.875vw;
+    opacity: 0.8;
+    padding: 2.083vw;
+    //border: 1px solid white;
+    margin-bottom: 2.083vw;
+
+    .makeSkillPicList {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 1.51vw;
+
+      .picListItem {
+        width: 16.927vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 100%;
+          height: 10.833vw;
+          border-radius: 1.25vw;
+          background-size: 100% 100%;
+        }
+
+        .text {
+          position: relative;
+          margin-top: 3.125vw;
+          margin-bottom: 3.125vw;
+          font-size: 0.9375vw;
+          font-weight: 500;
+          color: #FFFFFF;
+
+          img {
+            position: absolute;
+            left: 0;
+            bottom: 0.521vw;
+            width: 3.125vw;
+            height: 2.96875vw;
+            border-radius: 0;
+          }
+        }
+      }
+    }
+
+    .makeSkillVPicList {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0.9375vw;
+
+      .vPicListItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 13.333vw;
+          height: 13.333vw;
+        }
+
+        span {
+          font-size: 0.9375vw;
+          margin-top: 1.042vw;
+        }
+      }
+    }
+  }
+
+  // 驱动能力模块
+  .driveSkill {
+    background: #0F1112;
+    border-radius: 1.875vw;
+    opacity: 0.8;
+    padding: 2.083vw;
+    //border: 1px solid white;
+    margin-bottom: 2.083vw;
+
+    .driveSkillCommonT {
+      font-size: 1.25vw;
+      font-weight: 500;
+      color: #FFFFFF;
+      padding-bottom: 1.042vw;
+    }
+
+    .real {
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 2.083vw;
+      margin: 2.604vw 0;
+    }
+
+    .ai {
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 2.083vw;
+    }
+
+    .driveSkillFlexCon {
+      display: flex;
+      justify-content: space-between;
+
+      .driveSkillFlexConItem {
+        width: 32.8125vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2.083vw;
+
+        img {
+          width: 100%;
+          height: 16.667vw;
+          margin-bottom: 1.042vw;
+        }
+
+        span {
+          font-size: 1.25vw;
+          font-weight: 400;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  // 进化能力模块
+  .evolutionSkill {
+    background: #0F1112;
+    border-radius: 1.875vw;
+    opacity: 0.8;
+    padding: 2.083vw;
+    //border: 1px solid white;
+    margin-bottom: 2.083vw;
+
+    .evolutionSkillFlexCon {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 6.25vw;
+
+      .evolutionSkillItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 8.333vw;
+          height: 8.333vw;
+          margin-bottom: 2.083vw;
+          border-radius: 1.5625vw;
+        }
+
+        span {
+          font-size: 1.146vw;
+          font-weight: 400;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  // 案例展示模块
+  .caseCon {
+    background: #0F1112;
+    border-radius: 1.875vw;
+    opacity: 0.8;
+    padding: 2.083vw;
+    //border: 1px solid white;
+    .caseConFlexCon {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 2.083vw;
+
+      img {
+        width: 22.1875vw;
+        height: 11.25vw;
+        border-radius: 1.25vw;
+      }
+    }
+  }
+}
+// 移动端页面
+.mobileCon{
+  position: relative;
+  padding: 2.42rem 0.4rem 1.82rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+  // 通用的大标题
+  .comT{
+    font-size: 0.4rem;
+    line-height: 0.45rem;
+    margin-bottom: 0.2rem;
+  }
+  // 通用的子标题
+  .comSubT{
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+  }
+  .bigPic {
+    position: absolute;
+    left:0.4rem;
+    top: 7rem;
+    width: 80%;
+    height: 14.68rem;
+    background: url("../../assets/page/virtualHuman/bigPic.png") no-repeat;
+    background-size: cover;
+    z-index: 0;
+  }
+  .header{
+    position: relative;
+    z-index: 1;
+    .title{
+      font-size: 0.4rem;
+      font-weight: 500;
+      color: #FFFFFF;
+      line-height: 0.7rem;
+      margin-bottom: 0.14rem;
+    }
+    .subT{
+      font-size: 0.24rem;
+      font-weight: 300;
+      line-height: 0.44rem;
+    }
+  }
+  .makeCon{
+    margin-top: 5rem;
+    padding: 0.4rem;
+    background: rgba(15, 17, 18, 0.8);
+    border-radius: 0.36rem;
+    .makeList{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,48%);
+      justify-content: space-between;
+      grid-row-gap: 0.4rem;
+      margin-top: 0.4rem;
+      .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+          position: relative;
+          width: 100%;
+          border-radius: 0.24rem;
+        }
+        .makeTitle{
+          position: relative;
+          margin-top: 0.8rem;
+          font-size: 0.28rem;
+          color: #FFFFFF;
+          line-height: 0.4rem;
+          img{
+            position: absolute;
+            left: 0;
+            top: -0.3rem;
+            width: 0.6rem;
+            height: 0.6rem;
+          }
+        }
+      }
+    }
+    .makeListPic{
+      margin-top: 66px;
+      .picList{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,48%);
+        justify-content: space-between;
+        grid-row-gap: 0.4rem;
+        margin-top: 0.4rem;
+        .item{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 0.28rem;
+          font-weight: 500;
+          img{
+            position: relative;
+            width: 100%;
+            border-radius: 0.24rem;
+            margin-bottom: 0.4rem;
+          }
+
+        }
+      }
+    }
+  }
+  .driveCon{
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+    background: rgba(15, 17, 18, 0.8);
+    border-radius: 0.36rem;
+    .realCon{
+      margin: 0.4rem 0;
+      padding: 0.4rem;
+      border-radius: 0.24rem;
+      border: 1px solid rgba(255,255,255,0.2);
+      .title{
+        font-size: 0.3rem;
+        font-weight: 500;
+        line-height: 0.34rem;
+      }
+      .subtitle{
+        font-size: 0.22rem;
+        line-height: 0.39rem;
+        margin-bottom: 0.5rem;
+      }
+      .realList{
+        font-size: 0.28rem;
+        font-weight: 500;
+        text-align: center;
+        img{
+          width: 100%;
+          border-radius: 0.24rem;
+          margin-bottom: 0.4rem;
+        }
+        span{
+          display: block;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+  .growCon{
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+    background: rgba(15, 17, 18, 0.8);
+    border-radius: 0.36rem;
+    .growList{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.64rem;
+      margin-bottom: 0.4rem;
+      font-size: 0.28rem;
+      .item{
+        max-width: 1.12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        img{
+          width: 0.88rem;
+          height: 0.88rem;
+          margin-bottom: 0.22rem;
+        }
+      }
+    }
+  }
+  .caseCon{
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+    background: rgba(15, 17, 18, 0.8);
+    border-radius: 0.36rem;
+    .caseList{
+      margin-top: 0.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      img{
+        width: 100%;
+        border-radius: 0.24rem;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 991px) {
+  .mainCon {
+    visibility: visible;
+  }
+
+  .mobileCon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .mainCon {
+    display: none;
+  }
+
+  .mobileCon {
+    visibility: visible;
+  }
+}
+

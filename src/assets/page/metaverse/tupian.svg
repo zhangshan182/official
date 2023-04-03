@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 20</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#757FD6" offset="0%"></stop>
+            <stop stop-color="#86AAD7" offset="57.6072853%"></stop>
+            <stop stop-color="#84BDB8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-338.000000, -3114.000000)">
+            <g id="编组-44" transform="translate(338.000000, 2901.000000)">
+                <g id="编组-20" transform="translate(0.000000, 213.000000)">
+                    <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                    <g id="编组-33" transform="translate(8.000000, 8.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                        <g id="编组" transform="translate(11.428571, 13.714286)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2">
+                            <path d="M0,2.28571429 C0,1.02334857 1.02334857,0 2.28571429,0 L41.1428571,0 C42.4052571,0 43.4285714,1.02334857 43.4285714,2.28571429 L43.4285714,34.2857143 C43.4285714,35.5481143 42.4052571,36.5714286 41.1428571,36.5714286 L2.28571429,36.5714286 C1.02334857,36.5714286 0,35.5481143 0,34.2857143 L0,2.28571429 Z" id="路径" stroke-linecap="round"></path>
+                            <path d="M10.8571429,11.4285714 C11.8038857,11.4285714 12.5714286,10.6610286 12.5714286,9.71428571 C12.5714286,8.76754286 11.8038857,8 10.8571429,8 C9.9104,8 9.14285714,8.76754286 9.14285714,9.71428571 C9.14285714,10.6610286 9.9104,11.4285714 10.8571429,11.4285714 Z" id="路径" stroke-linecap="round"></path>
+                            <path d="M11.4285714,18.2857143 L17.1428571,22.8571429 L24,14.8571429 L43.4285714,29.7142857 L43.4285714,34.2857143 C43.4285714,35.5481143 42.4052571,36.5714286 41.1428571,36.5714286 L2.28571429,36.5714286 C1.02334857,36.5714286 0,35.5481143 0,34.2857143 L0,29.7142857 L11.4285714,18.2857143 Z" id="路径"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

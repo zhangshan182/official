@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页2-虚拟人" transform="translate(-754.000000, -355.000000)">
+            <g id="编组-6" transform="translate(754.000000, 355.000000)">
+                <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+                <g id="编组" transform="translate(3.000000, 4.000000)" stroke="#FFFFFF" stroke-linejoin="round">
+                    <path d="M0,1 C0,0.447715 0.447715,0 1,0 L18,0 C18.5523,0 19,0.447715 19,1 L19,15 C19,15.5523 18.5523,16 18,16 L1,16 C0.447715,16 0,15.5523 0,15 L0,1 Z" id="路径" stroke-linecap="round"></path>
+                    <path d="M4.75,5 C5.1642,5 5.5,4.6642 5.5,4.25 C5.5,3.8358 5.1642,3.5 4.75,3.5 C4.3358,3.5 4,3.8358 4,4.25 C4,4.6642 4.3358,5 4.75,5 Z" id="路径" stroke-linecap="round"></path>
+                    <path d="M5,8 L7.5,10 L10.5,6.5 L19,13 L19,15 C19,15.5523 18.5523,16 18,16 L1,16 C0.447715,16 0,15.5523 0,15 L0,13 L5,8 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

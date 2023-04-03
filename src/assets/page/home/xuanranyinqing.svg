@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="77px" viewBox="0 0 80 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 24</title>
+    <defs>
+        <linearGradient x1="12.1951933%" y1="19.6575391%" x2="100%" y2="62.3170804%" id="linearGradient-1">
+            <stop stop-color="#0099FF" offset="0%"></stop>
+            <stop stop-color="#00DEFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.9739482%" y1="72.69928%" x2="75.9895754%" y2="20.4391607%" id="linearGradient-2">
+            <stop stop-color="#FFF8F1" offset="0%"></stop>
+            <stop stop-color="#83D8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页5-核心技术" transform="translate(-1235.000000, -570.000000)">
+            <g id="编组-24" transform="translate(1235.000000, 570.000000)">
+                <g id="矩形备份-10" fill="#D8D8D8" opacity="0">
+                    <rect id="矩形备份-6" x="0" y="0" width="76.8" height="76.8"></rect>
+                </g>
+                <g id="天气" transform="translate(3.200000, 6.400000)">
+                    <circle id="椭圆形" fill="url(#linearGradient-1)" cx="45.3894737" cy="23.1578947" r="23.1578947"></circle>
+                    <path d="M27.0336,9.51315789 C33.5153126,9.51315789 39.4593408,11.8008899 44.0923658,15.6082868 C48.856633,19.523538 52.2347466,25.045669 53.385133,31.3393302 L53.385133,31.3393302 L60.85,31.3394737 C65.1854353,31.3394737 69.1104353,33.096756 71.9515765,35.9378972 C74.7927176,38.7790384 76.55,42.7040384 76.55,47.0394737 C76.55,51.374909 74.7927176,55.299909 71.9515765,58.1410501 C69.1104353,60.9821913 65.1854353,62.7394737 60.85,62.7394737 L60.85,62.7394737 L28.75,62.7394737 C28.5051806,62.7394737 28.2616696,62.733872 28.0195883,62.7227889 C27.6794856,62.7337721 27.3572128,62.7394737 27.0336,62.7394737 C19.6373313,62.7394737 12.9411965,59.760564 8.0941749,54.9441021 C3.24772742,50.1282106 0.25,43.4751565 0.25,36.1263158 C0.25,28.7774751 3.24772742,22.124421 8.0941749,17.3085295 C12.9411965,12.4920676 19.6373313,9.51315789 27.0336,9.51315789 Z" id="形状结合" stroke-opacity="0.26027354" stroke="#FFFFFF" stroke-width="0.5" fill-opacity="0.6" fill="url(#linearGradient-2)"></path>
+                    <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="15.4" y="41" width="52.4" height="14" rx="7"></rect>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="25.6" cy="48" r="3.2"></circle>
+                    <circle id="椭圆形备份" fill="#FFFFFF" cx="35.2" cy="48" r="3.2"></circle>
+                    <rect id="矩形" fill="#FFFFFF" x="41.6" y="44.8" width="19.2" height="6.4" rx="3.2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

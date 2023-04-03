@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="24px" viewBox="0 0 272 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 10备份 9</title>
+    <defs>
+        <linearGradient x1="0%" y1="50.0027033%" x2="97.1200146%" y2="49.9972967%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-994.000000, -5083.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path id="直线-10备份-9" d="M1018,5083 L1018,5093 L1034,5093 L1034,5097 L1018,5097 L1018,5107 L994,5095 L1018,5083 Z M1242,5083 L1266,5095 L1242,5107 L1242,5097 L1238,5097 L1238,5093 L1242,5093 L1242,5083 Z M1066,5093 L1066,5097 L1046,5097 L1046,5093 L1066,5093 Z M1098,5093 L1098,5097 L1078,5097 L1078,5093 L1098,5093 Z M1130,5093 L1130,5097 L1110,5097 L1110,5093 L1130,5093 Z M1162,5093 L1162,5097 L1142,5097 L1142,5093 L1162,5093 Z M1194,5093 L1194,5097 L1174,5097 L1174,5093 L1194,5093 Z M1226,5093 L1226,5097 L1206,5097 L1206,5093 L1226,5093 Z"></path>
+        </g>
+    </g>
+</svg>

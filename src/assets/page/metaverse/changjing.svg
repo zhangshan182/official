@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 30</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-1502.000000, -3114.000000)">
+            <g id="编组-30" transform="translate(1502.000000, 3114.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                <g id="编组-43" transform="translate(8.000000, 8.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                    <g id="编组" transform="translate(9.142857, 11.428571)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2">
+                        <polygon id="路径" points="22.8571429 6.85714286 38.8571429 16 38.8571429 34.2857143 22.8571429 43.4285714 6.85714286 34.2857143 6.85714286 16"></polygon>
+                        <line x1="22.8571429" y1="0" x2="22.8571429" y2="6.85714286" id="路径" stroke-linecap="round"></line>
+                        <polyline id="路径" stroke-linecap="round" points="6.85714286 16 22.8571429 25.1428571 38.8571429 16"></polyline>
+                        <line x1="38.8571429" y1="34.2857143" x2="45.7142857" y2="37.7142857" id="路径" stroke-linecap="round"></line>
+                        <line x1="0" y1="37.7142857" x2="6.85714286" y2="34.2857143" id="路径" stroke-linecap="round"></line>
+                        <line x1="22.8571429" y1="25.1428571" x2="22.8571429" y2="43.4285714" id="路径" stroke-linecap="round"></line>
+                        <path d="M30.8571429,11.4285714 L38.8571429,16 L38.8571429,25.1428571 M14.8571429,11.4285714 L6.85714286,16 L6.85714286,25.1428571 M14.8571429,38.8571429 L22.8571429,43.4285714 L30.8571429,38.8571429" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

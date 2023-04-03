@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 32</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#CBD675" offset="0%"></stop>
+            <stop stop-color="#D7B786" offset="57.6072853%"></stop>
+            <stop stop-color="#BD9A84" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-1114.000000, -3008.000000)">
+            <g id="编组-32" transform="translate(1114.000000, 3008.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                <g id="编组-41" transform="translate(8.000000, 8.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                    <g id="编组" transform="translate(13.714286, 9.142857)">
+                        <path d="M34.2857143,0 L2.28571429,0 C1.02334857,0 0,1.02334857 0,2.28571429 L0,43.4285714 C0,44.6909714 1.02334857,45.7142857 2.28571429,45.7142857 L34.2857143,45.7142857 C35.5481143,45.7142857 36.5714286,44.6909714 36.5714286,43.4285714 L36.5714286,2.28571429 C36.5714286,1.02334857 35.5481143,0 34.2857143,0 Z" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M22.8571429,13.7142857 C22.8571429,15.2922286 22.2176,16.7208 21.1834286,17.7548571 C20.1493714,18.7890286 18.7208,19.4285714 17.1428571,19.4285714 C13.9869714,19.4285714 11.4285714,16.8701714 11.4285714,13.7142857 C11.4285714,10.5584 13.9869714,8 17.1428571,8 C20.2987429,8 22.8571429,10.5584 22.8571429,13.7142857 Z" id="路径"></path>
+                        <path d="M25.1428571,21.7142857 L21.1834286,17.7548571 M21.1834286,17.7548571 C22.2176,16.7208 22.8571429,15.2922286 22.8571429,13.7142857 C22.8571429,10.5584 20.2987429,8 17.1428571,8 C13.9869714,8 11.4285714,10.5584 11.4285714,13.7142857 C11.4285714,16.8701714 13.9869714,19.4285714 17.1428571,19.4285714 C18.7208,19.4285714 20.1493714,18.7890286 21.1834286,17.7548571 Z" id="形状" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="10.2857143" y1="29.7142857" x2="26.2857143" y2="29.7142857" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="10.2857143" y1="36.5714286" x2="18.2857143" y2="36.5714286" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

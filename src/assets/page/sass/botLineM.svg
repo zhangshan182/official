@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="541px" height="170px" viewBox="0 0 541 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-118.000000, -8140.000000)">
+            <g id="编组-10" transform="translate(58.000000, 7813.000000)">
+                <g id="编组-6" transform="translate(60.000000, 327.500000)">
+                    <polygon id="路径" fill="#D575A3" fill-rule="nonzero" transform="translate(8.500000, 124.000000) rotate(90.000000) translate(-8.500000, -124.000000) " points="11.6 115.5 11.6 122.583333 24 122.583333 24 125.416667 11.6 125.416667 11.6 132.5 -7 124"></polygon>
+                    <polygon id="路径" fill="#8DC0C6" fill-rule="nonzero" transform="translate(532.000000, 11.000000) rotate(-90.000000) translate(-532.000000, -11.000000) " points="524.142857 2.5 543 11 524.142857 19.5 524.142857 12.4166667 521 12.4166667 521 9.58333333 524.142857 9.58333333"></polygon>
+                    <path d="M532,26.8026034 L532,55.6812523 L532,156.087879 C532,162.942904 526.913621,168.5 520.639255,168.5 L20.3607448,168.5 C14.0863787,168.5 9,162.942904 9,156.087879 L9,116.400861" id="路径" stroke="url(#linearGradient-1)" stroke-width="2" stroke-dasharray="12"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

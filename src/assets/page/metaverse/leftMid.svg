@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="281px" height="24px" viewBox="0 0 281 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 10备份 5</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-429.000000, -3139.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path id="直线-10备份-5" d="M686,3139 L710,3151 L686,3163 L686,3153 L670,3153 L670,3149 L686,3149 L686,3139 Z M658,3149 L658,3153 L638,3153 L638,3149 L658,3149 Z M626,3149 L626,3153 L606,3153 L606,3149 L626,3149 Z M594,3149 L594,3153 L574,3153 L574,3149 L594,3149 Z M562,3149 L562,3153 L542,3153 L542,3149 L562,3149 Z M530,3149 L530,3153 L510,3153 L510,3149 L530,3149 Z M498,3149 L498,3153 L478,3153 L478,3149 L498,3149 Z M466,3149 L466,3153 L446,3153 L446,3149 L466,3149 Z M434,3149 L434,3153 L429,3153 L429,3149 L434,3149 Z"></path>
+        </g>
+    </g>
+</svg>

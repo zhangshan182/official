@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="64px" viewBox="0 0 71 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 10备份 16</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-339.000000, -4095.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="编组-16" transform="translate(24.000000, 3497.000000)">
+                <path id="直线-10备份-16" d="M364.380226,641.283677 L365.124961,641.951037 L376.241,651.912 L380.245228,647.443812 L386,662 L370.902187,657.870105 L374.906,653.401 L363.790241,643.440508 L363.045506,642.773148 L364.380226,641.283677 Z M340.5487,619.928154 L341.293436,620.595514 L353.209198,631.273276 L353.953934,631.940636 L352.619213,633.430106 L351.874478,632.762746 L339.958715,622.084985 L339.21398,621.417624 L340.5487,619.928154 Z M316.717174,598.572631 L317.46191,599.239991 L329.377673,609.917753 L330.122408,610.585113 L328.787688,612.074583 L328.042952,611.407223 L316.127189,600.729461 L315.382454,600.062101 L316.717174,598.572631 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

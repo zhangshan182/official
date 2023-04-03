@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="163px" viewBox="0 0 24 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 10</title>
+    <defs>
+        <linearGradient x1="100%" y1="4.31351455%" x2="100%" y2="97.3979347%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-936.000000, -1756.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path id="直线-10" d="M960,1894.5 L948,1918.5 L936,1894.5 L960,1894.5 Z M950,1872.5 L950,1892.5 L946,1892.5 L946,1872.5 L950,1872.5 Z M950,1840.5 L950,1860.5 L946,1860.5 L946,1840.5 L950,1840.5 Z M950,1808.5 L950,1828.5 L946,1828.5 L946,1808.5 L950,1808.5 Z M948,1756.5 L960,1780.5 L950,1780.5 L950,1796.5 L946,1796.5 L946,1780.5 L936,1780.5 L948,1756.5 Z"></path>
+        </g>
+    </g>
+</svg>

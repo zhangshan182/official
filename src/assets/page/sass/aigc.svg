@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 26</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-726.000000, -3114.000000)">
+            <g id="编组-26" transform="translate(726.000000, 3114.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                <g id="编组-37" transform="translate(8.000000, 8.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                    <g id="编组" transform="translate(9.142857, 9.142857)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M22.2340474,48 C25.9147331,48 32.2082188,43.2 32.2082188,24 C32.2082188,4.8 25.9147331,0 22.2340474,0 C18.553476,0 12.2599903,5.12345143 12.2599903,24 C12.2599903,42.8765714 18.553476,48 22.2340474,48 Z" id="路径"></path>
+                        <path d="M0.639704552,36.5715429 C2.48004741,39.7856 9.94570455,42.7669714 27.2212474,32.7098286 C44.496676,22.6526857 45.6689046,14.6427429 43.8285617,11.4286857 C41.9882188,8.21462857 34.2316474,5.40260571 17.2471903,15.2904 C0.262630266,25.1780571 -1.20059259,33.3574857 0.639704552,36.5715429 Z" id="路径"></path>
+                        <path d="M0.639601695,11.4286857 C-1.20069545,14.6427429 -0.0285125911,22.6526857 17.247076,32.7098286 C34.5226188,42.7669714 41.9881046,39.7856 43.8284474,36.5715429 C45.6687903,33.3574857 44.2055903,25.1780571 27.2210188,15.2904 C10.2365617,5.40260571 2.47995598,8.21462857 0.639601695,11.4286857 Z" id="路径"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

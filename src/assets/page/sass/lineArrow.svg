@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="193px" height="35px" viewBox="0 0 193 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直线 6</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D675A3" offset="0%"></stop>
+            <stop stop-color="#8D86D7" offset="45.7084176%"></stop>
+            <stop stop-color="#8CBFC6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-1118.000000, -4181.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path id="直线-6" d="M1276.5,4181.5 L1310.5,4198.5 L1276.5,4215.5 L1276.5,4181.5 Z M1140.5,4195.5 L1140.5,4201.5 L1118.5,4201.5 L1118.5,4195.5 L1140.5,4195.5 Z M1172.5,4195.5 L1172.5,4201.5 L1150.5,4201.5 L1150.5,4195.5 L1172.5,4195.5 Z M1204.5,4195.5 L1204.5,4201.5 L1182.5,4201.5 L1182.5,4195.5 L1204.5,4195.5 Z M1236.5,4195.5 L1236.5,4201.5 L1214.5,4201.5 L1214.5,4195.5 L1236.5,4195.5 Z M1268.5,4195.5 L1268.5,4201.5 L1246.5,4201.5 L1246.5,4195.5 L1268.5,4195.5 Z"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 22</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#75D5D6" offset="0%"></stop>
+            <stop stop-color="#A0D786" offset="57.6072853%"></stop>
+            <stop stop-color="#B8BD84" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-338.000000, -3327.000000)">
+            <g id="编组-44" transform="translate(338.000000, 2901.000000)">
+                <g id="编组-22" transform="translate(0.000000, 426.000000)">
+                    <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                    <g id="编组-34" transform="translate(8.000000, 8.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                        <g id="编组" transform="translate(9.142857, 13.714286)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M0,2.28571429 C0,1.02334857 1.02334857,0 2.28571429,0 L34.2857143,0 C35.5481143,0 36.5714286,1.02334857 36.5714286,2.28571429 L36.5714286,12.5714286 L45.7142857,5.71428571 L45.7142857,32 L36.5714286,25.1428571 L36.5714286,34.2857143 C36.5714286,35.5481143 35.5481143,36.5714286 34.2857143,36.5714286 L2.28571429,36.5714286 C1.02334857,36.5714286 0,35.5481143 0,34.2857143 L0,2.28571429 Z" id="路径"></path>
+                            <line x1="6.85714286" y1="9.14285714" x2="6.85714286" y2="13.7142857" id="路径"></line>
+                            <line x1="12.5714286" y1="6.85714286" x2="12.5714286" y2="16" id="路径"></line>
+                            <line x1="18.2857143" y1="9.14285714" x2="18.2857143" y2="13.7142857" id="路径"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

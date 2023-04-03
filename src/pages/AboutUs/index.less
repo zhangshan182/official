@@ -1,0 +1,86 @@
+.aboutCon {
+  position: relative;
+  height: 62.5vw;
+  background: url("../../assets/common/bg.jpg") repeat-y;
+  background-size: 100%;
+  z-index: 3;
+
+  img {
+    position: absolute;
+    right: 11.71875vw;
+    top: 9.84vw;
+    width: 45.625vw;
+    height: 40.833vw;
+  }
+
+  .aboutConTitle {
+    position: absolute;
+    font-size: 2.292vw;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1.615vw;
+    z-index: 1;
+    top: 11.63vw;
+    left: 12.5vw;
+  }
+
+  .aboutConDetail {
+    position: absolute;
+    top: 16.45vw;
+    left: 12.5vw;
+    z-index: 1;
+    width: 50.208vw;
+    font-size: 0.833vw;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+.aboutConM {
+  position: relative;
+  padding: 1.9rem 0.4rem 6rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+  .title{
+    font-size: 0.4rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+  .subT{
+    position: relative;
+    font-size: 0.24rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    line-height: 0.48rem;
+    font-family: PingFangSC-Regular, PingFang SC, serif;
+    z-index: 1;
+  }
+  img{
+    position: absolute;
+    width: 5.17rem;
+    height: 4.62rem;
+    bottom: 3.83rem;
+    right: 0.31rem;
+    z-index: 0;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .aboutCon {
+    visibility: visible;
+  }
+
+  .aboutConM {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .aboutCon {
+    display: none;
+  }
+
+  .aboutConM {
+    visibility: visible;
+  }
+}

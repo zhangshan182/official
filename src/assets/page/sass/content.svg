@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>内容生态</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#75D5D6" offset="0%"></stop>
+            <stop stop-color="#A0D786" offset="57.6072853%"></stop>
+            <stop stop-color="#B8BD84" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-虚拟人及内容生成SaaS" transform="translate(-892.000000, -5055.000000)">
+            <g id="编组-38备份" transform="translate(884.000000, 5055.000000)">
+                <g id="内容生态" transform="translate(8.000000, 0.000000)">
+                    <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                    <g id="编组-37" transform="translate(8.000000, 8.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                        <g id="编组" transform="translate(16.000000, 13.714286)">
+                            <path d="M28.5714286,0 L1.9047619,0 C0.852790476,0 0,0.852790476 0,1.9047619 L0,36.1904762 C0,37.2424762 0.852790476,38.0952381 1.9047619,38.0952381 L28.5714286,38.0952381 C29.6234286,38.0952381 30.4761905,37.2424762 30.4761905,36.1904762 L30.4761905,1.9047619 C30.4761905,0.852790476 29.6234286,0 28.5714286,0 Z" id="路径" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M19.047619,11.4285714 C19.047619,12.7435238 18.5146667,13.934 17.6528571,14.7957143 C16.7911429,15.6575238 15.6006667,16.1904762 14.2857143,16.1904762 C11.6558095,16.1904762 9.52380952,14.0584762 9.52380952,11.4285714 C9.52380952,8.79866667 11.6558095,6.66666667 14.2857143,6.66666667 C16.915619,6.66666667 19.047619,8.79866667 19.047619,11.4285714 Z" id="路径"></path>
+                            <path d="M20.952381,18.0952381 L17.6528571,14.7957143 M17.6528571,14.7957143 C18.5146667,13.934 19.047619,12.7435238 19.047619,11.4285714 C19.047619,8.79866667 16.915619,6.66666667 14.2857143,6.66666667 C11.6558095,6.66666667 9.52380952,8.79866667 9.52380952,11.4285714 C9.52380952,14.0584762 11.6558095,16.1904762 14.2857143,16.1904762 C15.6006667,16.1904762 16.7911429,15.6575238 17.6528571,14.7957143 Z" id="形状" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <line x1="8.57142857" y1="24.7619048" x2="21.9047619" y2="24.7619048" id="路径" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <line x1="8.57142857" y1="30.4761905" x2="15.2380952" y2="30.4761905" id="路径" stroke="#FFFFFF" stroke-width="1.66666667" stroke-linecap="round" stroke-linejoin="round"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

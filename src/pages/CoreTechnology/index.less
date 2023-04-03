@@ -1,0 +1,647 @@
+// keyframes
+@keyframes rote {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pcCon {
+  // common less
+  .commonBox {
+    background: #0F1112;
+    border-radius: 1.875vw;
+    padding: 2.083vw;
+    margin-bottom: 2.34375vw;
+
+    .commonBoxT {
+      font-size: 1.5625vw;
+      font-weight: 500;
+      color: #FFFFFF;
+      margin-bottom: 1.042vw;
+    }
+
+    .commonBoxSubT {
+      font-size: 0.729vw;
+      font-weight: 400;
+      color: #FFFFFF;
+    }
+  }
+
+  // 生成引擎
+  .growCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3.59375vw;
+    margin-bottom: 5.208vw;
+    // 图片统一尺寸
+    img {
+      width: 5.208vw;
+      height: 5.208vw;
+    }
+
+    // 公用的图片与标题
+    .itemCon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 8.333vw;
+      white-space: nowrap;
+      font-size: 0.833vw;
+      font-weight: 500;
+      color: #FFFFFF;
+
+      img {
+        margin-bottom: 1.042vw;
+      }
+
+    }
+
+    .topCon {
+      margin-left: 19.84375vw;
+      margin-bottom: 3.4375vw;
+    }
+
+    .midCon {
+      display: flex;
+      align-items: center;
+
+      .leftImg {
+        position: relative;
+
+        .rightTopCon {
+          position: absolute;
+          left: 7.333vw;
+          top: -7.708vw;
+          width: 12.625vw;
+          height: 7.708vw;
+          background: url("../../assets/page/coreT/rightTopLine1.svg");
+          background-size: 100% 100%;
+        }
+
+        .rightBotCon {
+          position: absolute;
+          left: 7.333vw;
+          top: 5.333vw;
+          width: 12.625vw;
+          height: 7.708vw;
+          background: url("../../assets/page/coreT/rightDwonLine1.svg");
+          background-size: 100% 100%;
+        }
+      }
+
+      .midImg {
+        position: relative;
+        margin-left: 31.771vw;
+
+        .leftTopCon {
+          position: absolute;
+          left: -11.9375vw;
+          top: -7.708vw;
+          width: 11.948vw;
+          height: 8.75vw;
+          background: url("../../assets/page/coreT/RD2.svg");
+          background-size: 100% 100%;
+        }
+
+        .leftBotCon {
+          position: absolute;
+          left: -11.9375vw;
+          top: 4.135vw;
+          width: 11.948vw;
+          height: 8.75vw;
+          background: url("../../assets/page/coreT/RT2.svg");
+          background-size: 100% 100%;
+        }
+      }
+
+      .midConArrow {
+        width: 9.6875vw;
+        height: 1.25vw;
+        background: url("../../assets/page/coreT/midline.svg");
+        background-size: 100% 100%;
+        margin: 0 0.833vw 2.083vw 0.833vw;
+      }
+
+      .rightImg {
+        //margin-left: 11.354vw;
+      }
+    }
+
+    .botCon {
+      margin-left: 19.84375vw;
+      margin-top: 2.552vw;
+    }
+  }
+
+  // 驱动引擎
+  .driveCon {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    margin: 4.167vw auto;
+    font-size: 0.833vw;
+    font-weight: 400;
+    color: #FFFFFF;
+    animation: rote 30s linear infinite;
+
+    .outCircle {
+      position: absolute;
+      width: 47.396vw;
+      height: 47.5vw;
+      background: url("../../assets/page/coreT/outC.svg");
+      background-size: 100% 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .insideCircle {
+      position: absolute;
+      width: 44.896vw;
+      height: 44.896vw;
+      background: url("../../assets/page/coreT/insideC.svg");
+      background-size: 100% 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    // 统一的图片与文字css
+    .imgCon {
+      position: absolute;
+      width: 5.46875vw;
+      height: 5.417vw;
+      animation: rote 30s reverse linear infinite;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 6.25vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+      }
+    }
+
+    .midConImg {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -4.6875vw;
+      margin-top: -4.6875vw;
+      width: 9.375vw;
+      height: 9.375vw;
+      animation: rote 30s reverse linear infinite;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 11.333vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+        font-size: 1.042vw;
+        font-weight: 500;
+        color: #FFFFFF;
+      }
+    }
+
+
+  }
+
+  // 进化引擎
+  .evolutionCon {
+    margin-top: 5.625vw;
+    margin-bottom: 5.46875vw;
+    // 通用的160大小icon
+    .icon160 {
+      position: relative;
+      width: 5.208vw;
+      height: 5.208vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 6.2vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+      }
+    }
+
+    // 通用的180大小icon
+    .icon180 {
+      position: relative;
+      width: 6.25vw;
+      height: 6.25vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 7.5vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+      }
+    }
+
+    .topCon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3.28125vw;
+    }
+
+    .topArrow {
+      width: 54.7vw;
+      height: 6.198vw;
+      margin: 0 auto;
+      background: url("../../assets/page/coreT/topArrow.svg");
+      background-size: 100% 100%;
+    }
+
+    .midCon {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5.9375vw;
+      margin-top: 1.042vw;
+    }
+
+    .botArrow {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1.85vw;
+      margin-top: 3.59375vw;
+
+      .botArrowItem {
+        width: 14.167vw;
+        height: 7.292vw;
+        background: url("../../assets/page/coreT/botArrow.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .botCon {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      padding: 0 0.3vw;
+    }
+  }
+}
+
+.mobileCon {
+  position: relative;
+  padding: 2.42rem 0.4rem 1.82rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+  // 通用的大标题
+  .comT {
+    font-size: 0.4rem;
+    line-height: 0.45rem;
+    margin-bottom: 0.2rem;
+  }
+
+  // 通用的子标题
+  .comSubT {
+    font-size: 0.24rem;
+    line-height: 0.44rem;
+  }
+
+  .bigPic {
+    width: 100%;
+    margin-top: 0.48rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .commonBox {
+    padding: 0.4rem;
+    background: rgba(15, 17, 18, 0.8);
+    border-radius: 0.36rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .growCon {
+    margin-top: 5.33vw;
+
+    .item {
+      position: relative;
+      width: 10.67vw;
+      height: 10.67vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .text {
+        position: absolute;
+        left: 50%;
+        top: 14.4vw;
+        transform: translateX(-50%);
+        width: 16vw;
+        text-align: center;
+        font-size: 3.73vw;
+      }
+    }
+
+    .topLine {
+      display: inline-block;
+      position: relative;
+      margin-left: 24.8vw;
+      margin-bottom: 21.33vw;
+
+      .topLeft {
+        position: absolute;
+        width: 13.2vw;
+        height: 21.47vw;
+        left: -13.2vw;
+        top: 8.93vw;
+        background: url("../../assets/page/coreT/topleftM.svg");
+        background-size: 100% 100%;
+      }
+
+      .topRight {
+        position: absolute;
+        width: 13.2vw;
+        height: 21.47vw;
+        left: 100%;
+        top: 8.93vw;
+        background: url("../../assets/page/coreT/toprightM.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .midLine {
+      display: flex;
+      margin-bottom: 21.33vw;
+      align-items: center;
+
+      .arrow {
+        width: 8.27vw;
+        height: 1.87vw;
+        background: url("../../assets/page/coreT/midline.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .botLine {
+      display: inline-block;
+      position: relative;
+      margin-left: 24.8vw;
+      margin-bottom: 22.4vw;
+
+      .botLeft {
+        position: absolute;
+        width: 13.33vw;
+        height: 20.4vw;
+        left: -12.27vw;
+        top: -20.67vw;
+        background: url("../../assets/page/coreT/botleftM.svg");
+        background-size: 100% 100%;
+      }
+
+      .botRight {
+        position: absolute;
+        width: 13.33vw;
+        height: 20.4vw;
+        left: 9.6vw;
+        top: -20.67vw;
+        background: url("../../assets/page/coreT/botrightM.svg");
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  // 驱动引擎
+  .driveCon {
+    position: relative;
+    width: 73.33vw;
+    height: 73.33vw;
+    margin: 6.33vw auto 18.67vw auto;
+    animation: rote 30s linear infinite;
+
+    .outCircle {
+      position: absolute;
+      width: 73.33vw;
+      height: 73.33vw;
+      background: url("../../assets/page/coreT/outC.svg");
+      background-size: 100% 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .insideCircle {
+      position: absolute;
+      width: 66.67vw;
+      height: 66.67vw;
+      background: url("../../assets/page/coreT/insideC.svg");
+      background-size: 100% 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    // 统一的图片与文字css
+    .imgCon {
+      position: absolute;
+      width: 10.67vw;
+      height: 10.67vw;
+      animation: rote 30s reverse linear infinite;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 12.8vw;
+        transform: translateX(-50%);
+        width: 16vw;
+        text-align: center;
+        font-size: 3.73vw;
+      }
+    }
+
+    .midConImg {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -8.53vw;
+      margin-top: -8.53vw;
+      width: 17.07vw;
+      height: 17.07vw;
+      animation: rote 30s reverse linear infinite;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 19.73vw;
+        transform: translateX(-50%);
+        font-weight: 500;
+        width: 26.67vw;
+        text-align: center;
+        font-size: 4vw;
+      }
+    }
+
+
+  }
+  // 进化引擎
+  .evolutionCon {
+    margin-top: 5.625vw;
+    margin-bottom: 5.46875vw;
+    // 通用的160大小icon
+    .icon160 {
+      position: relative;
+      width: 13.87vw;
+      height: 13.87vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 16.53vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+        font-size: 3.73vw;
+      }
+    }
+
+    // 通用的180大小icon
+    .icon180 {
+      position: relative;
+      width: 10.93vw;
+      height: 10.93vw;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .textCon {
+        position: absolute;
+        left: 50%;
+        top: 13.33vw;
+        white-space: nowrap;
+        transform: translateX(-50%);
+      }
+    }
+
+    .topCon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 9.6vw;
+    }
+
+    .topArrow {
+      width: 60vw;
+      height: 9.87vw;
+      margin: 2vw auto;
+      background: url("../../assets/page/coreT/topArrow.svg");
+      background-size: 100% 100%;
+    }
+
+    .midCon {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5.9375vw;
+      margin-top: 1.042vw;
+    }
+
+    .botArrow {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 1.85vw;
+      margin-top: 10vw;
+
+      .botArrowItem {
+        width: 18.53vw;
+        height: 15.47vw;
+        background: url("../../assets/page/coreT/botArrow.svg");
+        background-size: 100% 100%;
+      }
+    }
+
+    .botCon {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2.67vw;
+      padding: 0 0.3vw;
+      .icon{
+        position: relative;
+        width: 9.6vw;
+        height: 9.6vw;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .textCon {
+          position: absolute;
+          left: 50%;
+          top: 13.33vw;
+          transform: translateX(-50%);
+          width: 12.8vw;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .pcCon {
+    visibility: visible;
+  }
+
+  .mobileCon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .pcCon {
+    display: none;
+  }
+
+  .mobileCon {
+    visibility: visible;
+  }
+}
+
+

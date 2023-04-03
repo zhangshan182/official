@@ -1,0 +1,370 @@
+.pc {
+  // 流程自动化 多种虚拟人共用样式
+  .commonCon {
+    background: #0F1112;
+    border-radius: 1.667vw;
+    padding: 2.083vw;
+
+    div {
+      background-size: 100% 100% !important;
+    }
+
+    .commonConTopList {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.71875vw;
+
+      div {
+        height: 17.34375vw;
+      }
+
+      .commonConTopListLeft {
+        position: relative;
+        width: 46.615vw;
+        border-radius: 1.667vw;
+        background: url('https://www.faceunity.com/uploadfile/upfiles/20220424150944208919.png');
+
+        .imgT {
+          position: absolute;
+          height: 1.667vw;
+          left: 2.083vw;
+          bottom: 3.125vw;
+          font-size: 1.146vw;
+          font-weight: 400;
+          color: #000000;
+        }
+
+        .imgSubT {
+          position: absolute;
+          height: 1.667vw;
+          left: 2.083vw;
+          bottom: 0.833vw;
+          font-size: 0.833vw;
+          font-weight: 400;
+          color: #000000;
+        }
+      }
+    }
+
+    .commonConBotList {
+      div {
+        height: 17.34375vw;
+      }
+
+      display: flex;
+      justify-content: space-between;
+      height: 17.34375vw;
+
+      .botListLeft {
+        width: 46.615vw;
+        display: flex;
+        justify-content: space-between;
+
+      }
+    }
+
+    // 公用的右侧的图片与文字
+    .rightItem {
+      position: relative;
+      width: 22.292vw;
+      border-radius: 1.667vw;
+      background: url('https://www.faceunity.com/uploadfile/upfiles/20220424150944208919.png');
+
+      .imgT {
+        position: absolute;
+        height: 1.667vw;
+        left: 2.083vw;
+        bottom: 3.125vw;
+        font-size: 1.146vw;
+        font-weight: 400;
+        color: #000000;
+      }
+
+      .imgSubT {
+        position: absolute;
+        height: 1.667vw;
+        left: 2.083vw;
+        bottom: 0.833vw;
+        font-size: 0.833vw;
+        font-weight: 400;
+        color: #000000;
+      }
+    }
+
+    // 支持虚拟人模块的图片的标题位置不是公用的
+    .manImgT {
+      position: absolute;
+      height: 1.667vw !important;
+      left: 2.083vw;
+      bottom: 1.40625vw;
+      font-size: 1.146vw;
+      font-weight: 400;
+      color: #000000;
+    }
+  }
+
+  // 公用的标题 子标题
+  .commonConT {
+    font-size: 1.5625vw;
+    font-weight: 500;
+    color: #FFFDFD;
+    margin-bottom: 1.042vw;
+  }
+
+  .commonConSubT {
+    font-size: 0.729vw;
+    font-weight: 400;
+    color: #FFFDFD;
+    margin-bottom: 4.167vw;
+  }
+
+  // 制作周期模块
+  .makeCon {
+    padding: 2.083vw;
+
+    .makeConList {
+      display: flex;
+      justify-content: space-between;
+
+      .makeConListItem {
+        position: relative;
+        width: 10.417vw;
+        height: 10.417vw;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+
+        .makeConListItemText {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: -0.78125vw;
+          font-size: 1.25vw;
+          font-weight: 400;
+          color: #FFFFFF;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  // 场景模块
+  .sceneCon {
+    background: #0F1112;
+    border-radius: 1.667vw;
+    padding: 2.083vw 2.083vw 1.042vw 2.083vw;
+    margin-top: 6.146vw;
+
+    .sceneConList {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .sceneConListItem {
+        position: relative;
+
+        img {
+          width: 34.375vw;
+          height: 20.833vw;
+          border-radius: 1.25vw;
+        }
+
+        .sceneConListItemText {
+          text-align: center;
+          font-size: 1.25vw;
+          font-weight: 400;
+          color: #FFFFFF;
+          margin-top: 2.083vw;
+          margin-bottom: 3.125vw;
+        }
+      }
+    }
+  }
+
+  // 案列模块
+  .caseCon {
+    background: #0F1112;
+    border-radius: 1.667vw;
+    padding: 2.083vw;
+    margin-top: 2.083vw;
+
+    .caseConList {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        width: 22.1875vw;
+        height: 11.25vw;
+        border-radius: 1.25vw;
+      }
+    }
+  }
+}
+
+.mobile {
+  position: relative;
+  padding: 2.42rem 0.4rem 1.82rem 0.4rem;
+  background: #000000;
+  color: #FFFFFF;
+
+  .title {
+    font-size: 0.4rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .subT {
+    font-size: 0.24rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 0.44rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .mainPic {
+    display: block;
+    width: 90%;
+    margin: 0 auto 0.8rem auto;
+  }
+
+  // 通用的item布局
+  .itemBox {
+    background: #0F1112;
+    padding: 0.4rem;
+    border-radius: 0.36rem;
+
+    .itemT {
+      font-size: 0.4rem;
+      font-weight: 500;
+      line-height: 0.45rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .itemSubT {
+      font-size: 0.24rem;
+      font-weight: 400;
+      line-height: 0.44rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  // 制作能力
+  .autoList {
+    .item {
+      position: relative;
+      margin-bottom: 0.35rem;
+
+      img {
+        position: relative;
+        display: block;
+        width: 100%;
+        z-index: 0;
+      }
+
+      .itemTitle {
+        position: absolute;
+        left: 0.4rem;
+        bottom: 1.02rem;
+        font-size: 0.28rem;
+        color: #000000;
+        line-height: 0.31rem;
+        z-index: 1;
+      }
+
+      .itemSubtitle {
+        position: absolute;
+        z-index: 1;
+        left: 0.4rem;
+        bottom: 0.49rem;
+        font-size: 0.22rem;
+        color: #000000;
+        line-height: 0.31rem;
+      }
+
+      .typeTitle {
+        position: absolute;
+        left: 0.4rem;
+        bottom: 0.7rem;
+        font-size: 0.28rem;
+        color: #000000;
+        line-height: 0.31rem;
+        z-index: 1;
+      }
+    }
+  }
+
+  // 制作周期
+  .makeList {
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      position: relative;
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-bottom: 1.8rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1.12rem;
+        top: 1.2rem;
+        text-align: center;
+        font-size: 0.28rem;
+      }
+    }
+  }
+
+  // 全链路支持
+  .supportList {
+    img {
+      display: block;
+      margin-bottom: 0.4rem;
+      width: 100%;
+    }
+
+    .text {
+      text-align: center;
+      margin-bottom: 0.4rem;
+      font-size: 0.28rem;
+    }
+  }
+
+  // 案列
+  .caseList{
+    img{
+      width: 100%;
+      margin-top: 0.4rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .pc {
+    visibility: visible;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .pc {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+}

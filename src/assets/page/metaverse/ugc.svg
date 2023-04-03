@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 35</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D6AD75" offset="0%"></stop>
+            <stop stop-color="#D78E86" offset="57.6072853%"></stop>
+            <stop stop-color="#BD8484" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品中心-元宇宙" transform="translate(-1114.000000, -3221.000000)">
+            <g id="编组-42" transform="translate(1114.000000, 3008.000000)">
+                <g id="编组-35" transform="translate(0.000000, 213.000000)">
+                    <circle id="椭圆形" fill="url(#linearGradient-1)" cx="40" cy="40" r="40"></circle>
+                    <g id="编组-39" transform="translate(8.000000, 8.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="64" height="64"></rect>
+                        <g id="编组" transform="translate(11.428571, 11.428571)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle id="椭圆形" cx="22.8571429" cy="8" r="8"></circle>
+                            <path d="M0,42.2857143 C0,32.1867429 9.21017143,24 20.5714286,24" id="路径"></path>
+                            <polygon id="路径" points="30.8571429 43.4285714 42.2857143 32 37.7142857 27.4285714 26.2857143 38.8571429 26.2857143 43.4285714"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
