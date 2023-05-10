@@ -4,8 +4,8 @@
 import React from 'react';
 import { ConfigProvider } from 'antd';
 
-import moment from '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/moment@2.29.4/node_modules/moment';
-import '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/moment@2.29.4/node_modules/moment/locale/zh-cn';
+import moment from '/Users/biggen/workForMoney/official/node_modules/_moment@2.29.4@moment';
+import '/Users/biggen/workForMoney/official/node_modules/_moment@2.29.4@moment/locale/zh-cn';
 import { RawIntlProvider, getLocale, getDirection , setIntl, getIntl, localeInfo, event, LANG_CHANGE_EVENT } from './localeExports';
 
 

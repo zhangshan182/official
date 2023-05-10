@@ -5,11 +5,11 @@ import {
   createIntl,
   IntlShape,
   MessageDescriptor,
-} from '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/react-intl@3.12.1/node_modules/react-intl';
+} from '/Users/biggen/workForMoney/official/node_modules/_react-intl@3.12.1@react-intl';
 import { getPluginManager } from '../core/plugin';
-import EventEmitter from '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/event-emitter@0.3.5/node_modules/event-emitter';
+import EventEmitter from '/Users/biggen/workForMoney/official/node_modules/_event-emitter@0.3.5@event-emitter';
 // @ts-ignore
-import warning from '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/warning@4.0.3/node_modules/warning';
+import warning from '/Users/biggen/workForMoney/official/node_modules/_warning@4.0.3@warning';
 
 export {
   createIntl,
@@ -34,7 +34,7 @@ export {
   defineMessages,
   injectIntl,
   useIntl,
-} from '/Users/biggen/workForMoney/umiMax/node_modules/.pnpm/react-intl@3.12.1/node_modules/react-intl';
+} from '/Users/biggen/workForMoney/official/node_modules/_react-intl@3.12.1@react-intl';
 
 let g_intl: IntlShape;
 
@@ -46,9 +46,9 @@ export const event = new EventEmitter();
 export const LANG_CHANGE_EVENT = Symbol('LANG_CHANGE');
 
 import enUS0 from 'antd/es/locale/en_US';
-import lang_enUS0 from "/Users/biggen/workForMoney/umiMax/src/locales/en-US.ts";
+import lang_enUS0 from "/Users/biggen/workForMoney/official/src/locales/en-US.ts";
 import zhCN0 from 'antd/es/locale/zh_CN';
-import lang_zhCN0 from "/Users/biggen/workForMoney/umiMax/src/locales/zh-CN.ts";
+import lang_zhCN0 from "/Users/biggen/workForMoney/official/src/locales/zh-CN.ts";
 
 export const localeInfo: {[key: string]: any} = {
   'en-US': {
@@ -110,6 +110,20 @@ export const addLocale = (
   }
 };
 
+const applyRuntimeLocalePlugin = (initialValue: any) => {
+  return getPluginManager().applyPlugins({
+    key: 'locale',
+    type: 'modify',
+    initialValue
+  });
+}
+
+const _createIntl = (locale: string) => {
+    const runtimeLocale = applyRuntimeLocalePlugin(localeInfo[locale]);
+    const { cache, ...config } = runtimeLocale;
+    return createIntl(config, cache);
+}
+
 /**
  * 获取当前的 intl 对象，可以在 node 中使用
  * @param locale 需要切换的语言类型
@@ -121,9 +135,11 @@ export const getIntl = (locale?: string, changeIntl?: boolean) => {
   if (g_intl && !changeIntl && !locale) {
     return g_intl;
   }
+  // 获取当前 locale
+  if (!locale) locale = getLocale();
   // 如果存在于 localeInfo 中
   if (locale&&localeInfo[locale]) {
-    return createIntl(localeInfo[locale]);
+    return _createIntl(locale);
   }
   // 不存在需要一个报错提醒
   warning(
@@ -131,12 +147,14 @@ export const getIntl = (locale?: string, changeIntl?: boolean) => {
     `The current popular language does not exist, please check the locales folder!`,
   );
   // 使用 zh-CN
-  if (localeInfo["zh-CN"]) return createIntl(localeInfo["zh-CN"]);
+  if (localeInfo["zh-CN"]) {
+    return _createIntl("zh-CN");
+  }
 
   // 如果还没有，返回一个空的
   return createIntl({
     locale: "zh-CN",
-    messages: {},
+    messages: {}
   });
 };
 
@@ -153,12 +171,7 @@ export const setIntl = (locale: string) => {
  * @returns string
  */
 export const getLocale = () => {
-  const runtimeLocale = getPluginManager().applyPlugins({
-    key: 'locale',
-    // workaround: 不使用 ApplyPluginsType.modify 是为了避免循环依赖，与 fast-refresh 一起用时会有问题
-    type: 'modify',
-    initialValue: {},
-  });
+  const runtimeLocale = applyRuntimeLocalePlugin({});
   // runtime getLocale for user define
   if (typeof runtimeLocale?.getLocale === 'function') {
    return runtimeLocale.getLocale();

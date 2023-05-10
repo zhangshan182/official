@@ -4,8 +4,9 @@
 import React from 'react';
 
 export async function getRoutes() {
+  const routes = {"1":{"path":"/","redirect":"/home","parentId":"@@/global-layout","id":"1"},"2":{"name":"首页","path":"/home","parentId":"@@/global-layout","id":"2"},"3":{"name":"虚拟人","path":"/virtualHuman","parentId":"@@/global-layout","id":"3"},"4":{"name":"应用场景","path":"/applicationScenario","parentId":"@@/global-layout","id":"4"},"5":{"name":"虚拟人定制","path":"/customized","parentId":"@@/global-layout","id":"5"},"6":{"name":"虚拟人直播解决方案","path":"/live","parentId":"@@/global-layout","id":"6"},"7":{"name":"虚拟人及内容生成SAAS平台","path":"/saas","parentId":"@@/global-layout","id":"7"},"8":{"name":"元宇宙基建UGC平台","path":"/metaverse","parentId":"@@/global-layout","id":"8"},"9":{"name":"核心技术","path":"/coreTechnology","parentId":"@@/global-layout","id":"9"},"10":{"name":"关于我们","path":"/aboutUs","parentId":"@@/global-layout","id":"10"},"@@/global-layout":{"id":"@@/global-layout","path":"/","isLayout":true}} as const;
   return {
-    routes: {"1":{"path":"/","redirect":"/home","parentId":"@@/global-layout","id":"1"},"2":{"name":"首页","path":"/home","file":"@/pages/Home/index.tsx","parentId":"@@/global-layout","id":"2"},"3":{"name":"虚拟人","path":"/virtualHuman","file":"@/pages/VirtualHuman/index.tsx","parentId":"@@/global-layout","id":"3"},"4":{"name":"应用场景","path":"/applicationScenario","file":"@/pages/ApplicationScenario/index.tsx","parentId":"@@/global-layout","id":"4"},"5":{"name":"虚拟人定制","path":"/customized","file":"@/pages/ProductCenter/Customized/index.tsx","parentId":"@@/global-layout","id":"5"},"6":{"name":"虚拟人直播解决方案","path":"/live","file":"@/pages/ProductCenter/Live/index.tsx","parentId":"@@/global-layout","id":"6"},"7":{"name":"虚拟人及内容生成SAAS平台","path":"/saas","file":"@/pages/ProductCenter/Saas/index.tsx","parentId":"@@/global-layout","id":"7"},"8":{"name":"元宇宙基建UGC平台","path":"/metaverse","file":"@/pages/ProductCenter/Metaverse/index.tsx","parentId":"@@/global-layout","id":"8"},"9":{"name":"核心技术","path":"/coreTechnology","file":"@/pages/CoreTechnology/index.tsx","parentId":"@@/global-layout","id":"9"},"10":{"name":"关于我们","path":"/aboutUs","file":"@/pages/AboutUs/index.tsx","parentId":"@@/global-layout","id":"10"},"@@/global-layout":{"id":"@@/global-layout","path":"/","file":"@/layouts/index.tsx","isLayout":true}},
+    routes,
     routeComponents: {
 '1': React.lazy(() => import( './EmptyRoute')),
 '2': React.lazy(() => import(/* webpackChunkName: "p__Home__index" */'@/pages/Home/index.tsx')),
@@ -17,7 +18,7 @@ export async function getRoutes() {
 '8': React.lazy(() => import(/* webpackChunkName: "p__ProductCenter__Metaverse__index" */'@/pages/ProductCenter/Metaverse/index.tsx')),
 '9': React.lazy(() => import(/* webpackChunkName: "p__CoreTechnology__index" */'@/pages/CoreTechnology/index.tsx')),
 '10': React.lazy(() => import(/* webpackChunkName: "p__AboutUs__index" */'@/pages/AboutUs/index.tsx')),
-'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'@/layouts/index.tsx')),
+'@@/global-layout': React.lazy(() => import(/* webpackChunkName: "layouts__index" */'/Users/biggen/workForMoney/official/src/layouts/index.tsx')),
 },
   };
 }
